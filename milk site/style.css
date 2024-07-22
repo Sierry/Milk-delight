@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#homepage{
+    color: #ffffff;
+    height: 98vh;
+    width: 218vh;
+    background-image: url(im4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar{
+    position:absolute;
+    color: #ffffff;
+    height: 40px;
+    width: 218vh;
+    top: 0px;
+    background-color: rgb(0, 128, 0, 0.322)
+}
+
+#alogo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 6px;
+    left: 8px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: all 1s ease-in-out 0s;
+}
+
+#algo:hover{
+    border: 12px solid rgb(105 170 255 / 66%);
+    box-shadow: 5px 5px 100px #ffffff9c;
+}
+
+img{
+    height: 100%;
+    border-radius: 50%;
+    width: fit-content;
+    transition: all 1s ease-in-out 0s;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1s ease-in-out 0s;
+}
+
+a:hover{
+        text-decoration-color: antiquewhite;
+        text-decoration-line: underline;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    width: 150px;
+}
+
+ul{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-left: 800px;
+    justify-content: space-evenly;
+}
+ul li ul.drop li{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 255 95 / 36%);
+}
+
+ul li ul.drop{
+    width: 100px;
+    background-color:  rgb(0, 255, 115);
+    position: absolute;
+    margin:0px;
+    z-index: 999;
+    display: none;
+}
+ 
+ul li a:hover{
+    background:  rgb(0, 255, 115);
+}
+
+ul li:hover ul.drop {
+    display: block;
+}
+
+.drop li:hover{
+    background-color: rgb(0, 255, 115);
+}
+
+#Cname{
+    position: absolute;
+    display: flex;
+    width: 70vh;
+    height: 150px;
+    background-color: rgba(6, 84, 6, 0.403);
+    border-radius: 7px;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 60px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+h1:hover{
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+}
+
+p{
+    position: absolute;
+    margin-top: 100px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+p:hover{
+    transform: scaleX(1.5);
+}
+
+#login{
+    position: absolute;
+    background-color: transparent;
+    height: 12vh;
+    width: 80vh;
+    bottom: 50px;
+    left: 480px;
+}
+
+input{
+    color: grey;
+    font-size: 18px;
+    background-color:rgb(35 35 35);
+    border: none;
+    height: 45px;
+    width: 60vh;
+    margin-bottom: 12px;
+    padding-left: 18px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+button{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(69 161 86);
+    height: 45px;
+    width: 140px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#p1{
+    color: #ffffff;
+    background-image: url(bgi2.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    height: 98vh;
+    width: 218vh;
+}
+
+#m1{
+    color: #ffffff;
+    background-color: #5a8a5a;
+    border: 1px solid white;
+    height: 98vh;
+    width: 218vh;
+}
+
+#c1{
+    color: #ffffff;
+    background-image: url(im6.png.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    height: 98vh;
+    width: 218vh;
+}
+
+.phead{
+    display: flex;
+    color: rgb(0, 100, 0);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#plist{
+    display: flex;
+    margin-top: 180px;
+    justify-content: space-evenly;
+}
+
+#pimg1{
+    height: 200px;
+    width: 200px;
+    background-image: url(cowm.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    
+}
+#pimg2{
+    height: 200px;
+    width: 200px;
+    background-image: url(buffalom.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+#pimg3{
+    height: 200px;
+    width: 200px;
+    background-image: url(wholem.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+#pimg4{
+    height: 200px;
+    width: 200px;
+    background-image: url(condensed.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.mname{
+    color: white;
+    margin-top: 220px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#mlist{
+    display: inline;
+    margin-top: 180px;
+}
+
+#mimg1{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 60px;
+    background-image: url(gaurav.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    
+}
+#mimg2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 60px;
+    background-color: grey;
+    background-image: url(sid11.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+#gaurav{
+    height: 40px;
+    width: 70vh;
+    margin-left: 300px;
+    margin-top: -230px;
+    color: #c7ff08;
+    font-size: 40px;
+}
+
+#sid{
+    color: #c7ff08;
+    font-size: 40px;
+    height: 40px;
+    width: 90vh;
+    margin-top: -150px;
+    margin-left: -700px;
+}
+#fam{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+#farm1{
+    height: 380px;
+    width: 380px;
+    border-radius: 12px;
+    background-image: url(farm1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#farm2{
+    height: 380px;
+    width: 380px;
+    border-radius: 12px;
+    background-image: url(farm2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#fami{
+    color: rgb(255 247 0);
+    font-size: 50px;
+    background-color: #ffffff;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+#a1{
+    color: #ffffff;
+    background-color: #000000 ;
+    border: 1px solid white;
+    height: 98vh;
+    width: 218vh;
+    justify-content: center;
+}
+
+#about{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+h5{
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 70vh;
+}

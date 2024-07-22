@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(67, 167, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#entrylogo{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    transition: all 0.2s ease-in-out 0s;
+    animation: Elogo 3s ease-in-out 0s normal;
+}
+
+#entrylogo:hover{
+    border: 12px solid rgb(105 170 255 / 66%);
+    box-shadow: 5px 5px 100px #ffffff9c;
+}
+
+img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    animation: Elogo 0s ease-in-out 0s normal;
+}
+
+@keyframes Elogo{
+    0%{
+        transform: translateY(-400px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform:translateY(-150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+
+
+    
+}
+
+h1{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 450px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+h1:hover{
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+    transform: scaleX(1.4);
+
+}
